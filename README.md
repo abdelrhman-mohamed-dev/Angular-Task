@@ -1,27 +1,49 @@
-# AngularUserDashboard
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# User Management Dashboard
 
-## Code scaffolding
+![Angular Logo](https://angular.io/assets/images/logos/angular/angular.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Demo
 
-## Build
+[![Demo Video](https://raw.githubusercontent.com/abdelrhman-mohamed-dev/Angular-Task/main/Demo/img.PNG)](Demo/final.mp4)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Description
 
-## Running unit tests
+This project is a **User Management Dashboard** built with **Angular 17** and **Angular Material**. The dashboard provides an intuitive interface for managing users, displaying their information in a structured table format. Users can view detailed profiles to get more insights into their data.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Features
 
-## Running end-to-end tests
+- **User Table**: Displays a list of users with key information.
+- **Profile Viewing**: Click on a user to view their full profile.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Installation
 
-## Further help
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/abdelrhman-mohamed-dev/Angular-Task.git
+   cd Angular-Task
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the application:
+   ```bash
+   ng serve
+   ```
+
+4. Open your browser and navigate to `http://localhost:4200/`.
+
+## Technologies Used
+
+- Angular 17
+- Angular Material
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
