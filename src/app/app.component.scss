@@ -1,0 +1,70 @@
+.example-container {
+    width: auto;
+    height: 100vh;
+    background-color: #fff;
+
+    .drawer {
+        width: 200px;
+        border: none;
+
+        h1 {
+            text-align: center;
+            color: #2B3674;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        hr {
+            color: #F4F7FE;
+
+            opacity: 0.2;
+        }
+
+        ul {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    text-decoration: none;
+                    color: #888;
+                    padding: 10px;
+
+                    &.active {
+                        border-right: 5px solid #4318FF;
+                        border-radius: 5px;
+                        color: #2B3674;
+                    }
+
+                    &:hover {
+                        color: #2B3674;
+                        background-color: #F4F7FE;
+                    }
+
+                    &.disabled {
+                        opacity: 0.5;
+                        pointer-events: none;
+                        cursor: not-allowed;
+                    }
+                }
+
+
+            }
+        }
+    }
+
+
+}

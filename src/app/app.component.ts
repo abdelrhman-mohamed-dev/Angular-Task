@@ -1,13 +1,23 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { Router, RouterModule, RouterOutlet } from '@angular/router';
+import { HeaderComponent } from './header/header.component';
+import { LoadingBarComponent } from './loading-bar/loading-bar.component';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatIconModule} from '@angular/material/icon';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [CommonModule, RouterOutlet, HeaderComponent, LoadingBarComponent,MatSidenavModule,MatIconModule,RouterModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   title = 'angular-user-dashboard';
+
+  constructor(
+    private router: Router
+  ) {}
 }
